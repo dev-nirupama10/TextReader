@@ -93,8 +93,6 @@ submitBtn.addEventListener("click", () => {
     containerDiv.appendChild(div);
   }
   countByUniqueWord.appendChild(containerDiv);
-
-  textArea.value = "";
   resultDiv.classList.remove("hidden");
 });
 
